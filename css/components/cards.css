@@ -1,0 +1,42 @@
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.card-small {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid rgb(220,220,220);
+  padding: 25px;
+  margin: 20px;
+  margin-top: 0;
+  border-radius: 4px;
+  box-shadow: 10px 10px 10px rgb(100,100,100,.1);
+
+
+
+}
+
+.card-small img {
+  height: 100px;
+  width: 100px;
+
+}
+
+.card-small h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: black;
+  font-weight: 450;
+
+}
+
+.card-small p {
+  font-family: 'Sona', sans-serif;
+  font-size: 16px;
+  color: rgb(170,170,170);
+}
